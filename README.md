@@ -95,12 +95,14 @@ Responsive dan mobile-friendly
 Tersedia toggle dark mode
 
 👨‍💻 Developer
-Kelompok 8 - TI.23.B2
+Kelompok 8 - TI.23.C2
+
 Pengembang : 
 1. Muhammad Ilyas Ramadhan Syarif (312310055) || Mahasiswa Universitas Pelita Bangsa
 2. Nopitasari (312310082) || Mahasiswa Universitas Pelita Bangsa
 3. Maulida Khairun Nisa (312310101) || Mahasiswa Universitas Pelita Bangsa
 4. Ghadis Claudia Valerin (312310753) || Mahasiswa Universitas Pelita Bangsa
+
 Pembimbing: Agung Nugroho, S.Kom., M.Kom.
 Mata kuliah: Pemrograman Web 2
 Universitas Pelita Bangsa – Fakultas Teknik - Prodi Informatika - Semester 4 

@@ -29,38 +29,37 @@ Aplikasi web sederhana untuk melakukan checklist kebersihan toilet, dikembangkan
 ## 📂 Struktur Folder
 
 checklist-toilet/
-│
 ├── assets/
-│ └── css-img/
-│ └── style.css
+│   └── css-img/
+│       └── style.css
 │
 ├── includes/
-│ └── db.php # Koneksi database
-│ └── session.php # Cek login session
+│   ├── db.php           # Koneksi database
+│   └── session.php      # Cek login session
 │
 ├── admin/
-│ ├── index.php # Dashboard admin
-│ ├── lokasi.php # Manajemen lokasi
-│ ├── laporan.php # Laporan checklist
-│ ├── edit_checklist.php
-│ ├── users.php # Manajemen akun
-│ ├── export_excel.php
-│ ├── delete_checklist.php
-│ ├── edit_user.php
-│ ├── hapus_user.php
-│ └── tambah_user.php
+│   ├── index.php            # Dashboard admin
+│   ├── lokasi.php           # Manajemen lokasi
+│   ├── laporan.php          # Laporan checklist
+│   ├── edit_checklist.php
+│   ├── users.php            # Manajemen akun
+│   ├── export_excel.php
+│   ├── delete_checklist.php
+│   ├── edit_user.php
+│   ├── hapus_user.php
+│   └── tambah_user.php
 │
 ├── pengguna/
-│ ├── index.php # Dashboard pengguna
-│ └── checklist.php # Form checklist
+│   ├── index.php            # Dashboard pengguna
+│   └── checklist.php        # Form checklist
 │
-├── login.php # Form login
-├── logout.php # Logout
-└── README.md # Ini dia
-
-markdown
-Salin
-Edit
+├── database/
+│   └── index.html           # Database Checklist Toilet
+│
+├── login.php                # Form login
+├── logout.php               # Logout
+├── README.md                # Dokumentasi proyek
+└── (tambahkan file lain jika ada)
 
 ---
 

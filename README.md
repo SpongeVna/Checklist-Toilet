@@ -29,37 +29,69 @@ Aplikasi web sederhana untuk melakukan checklist kebersihan toilet, dikembangkan
 ## 📂 Struktur Folder
 
 checklist-toilet/
+
 ├── assets/
+
 │   └── css-img/
+
 │       └── style.css
+
 │
+
 ├── includes/
+
 │   ├── db.php           # Koneksi database
+
 │   └── session.php      # Cek login session
+
 │
+
 ├── admin/
+
 │   ├── index.php            # Dashboard admin
+
 │   ├── lokasi.php           # Manajemen lokasi
+
 │   ├── laporan.php          # Laporan checklist
+
 │   ├── edit_checklist.php
+
 │   ├── users.php            # Manajemen akun
+
 │   ├── export_excel.php
+
 │   ├── delete_checklist.php
+
 │   ├── edit_user.php
+
 │   ├── hapus_user.php
+
 │   └── tambah_user.php
+
 │
+
 ├── pengguna/
+
 │   ├── index.php            # Dashboard pengguna
+
 │   └── checklist.php        # Form checklist
+
 │
+
 ├── database/
+
 │   └── index.html           # Database Checklist Toilet
+
 │
+
 ├── login.php                # Form login
+
 ├── logout.php               # Logout
+
 ├── README.md                # Dokumentasi proyek
+
 └── (tambahkan file lain jika ada)
+
 
 ---
 
@@ -104,7 +136,9 @@ Pengembang :
 4. Ghadis Claudia Valerin (312310753) || Mahasiswa Universitas Pelita Bangsa
 
 Pembimbing: Agung Nugroho, S.Kom., M.Kom.
+
 Mata kuliah: Pemrograman Web 2
+
 Universitas Pelita Bangsa – Fakultas Teknik - Prodi Informatika - Semester 4 
 
 📄 Lisensi

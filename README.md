@@ -126,6 +126,8 @@ Responsive dan mobile-friendly
 
 Tersedia toggle dark mode
 
+---
+
 👨‍💻 Developer
 Kelompok 8 - TI.23.C2
 
@@ -140,6 +142,8 @@ Pembimbing: Agung Nugroho, S.Kom., M.Kom.
 Mata kuliah: Pemrograman Web 2
 
 Universitas Pelita Bangsa – Fakultas Teknik - Prodi Informatika - Semester 4 
+
+---
 
 📄 Lisensi
 © 2025 – Untuk keperluan akademik.

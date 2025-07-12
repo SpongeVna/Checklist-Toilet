@@ -1,17 +1,17 @@
 # Menggunakan image PHP + Apache
 FROM php:8.1-apache
 
-# Copy semua file ke folder web server
-COPY . /var/www/html/
+# Install ekstensi mysqli (dan dependency)
+RUN apt-get update && docker-php-ext-install mysqli
 
-# Aktifkan modul Apache
+# Aktifkan mod_rewrite di Apache
 RUN a2enmod rewrite
 
-# Atur hak akses
+# Salin semua file ke dalam container
+COPY . /var/www/html/
+
+# Atur hak akses file
 RUN chown -R www-data:www-data /var/www/html
 
-# Expose port
+# Buka port 80
 EXPOSE 80
-
-# Install mysqli extension
-RUN docker-php-ext-install mysqli

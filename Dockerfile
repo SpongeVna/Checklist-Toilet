@@ -12,3 +12,6 @@ RUN chown -R www-data:www-data /var/www/html
 
 # Expose port
 EXPOSE 80
+
+# Install mysqli extension
+RUN docker-php-ext-install mysqli

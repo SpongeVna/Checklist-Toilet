@@ -1,9 +1,9 @@
 <?php
-$host = "metro.proxy.rlwy.net";
-$port = 56793;
-$user = "root";
-$pass = "KFRuhiVOImdekJHBZNfqLCPNSxGSjitG";
-$db   = "railway";
+$host = getenv("DB_HOST");
+$port = getenv("DB_PORT");
+$user = getenv("DB_USER");
+$pass = getenv("DB_PASS");
+$db   = getenv("DB_NAME");
 
 $conn = new mysqli($host, $user, $pass, $db, $port);
 
